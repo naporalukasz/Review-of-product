@@ -1,349 +1,460 @@
 {
     "result": {
         "annotationDetails": {
-            "hasMorphosyntaxDisambiguated": true,
-            "hasMorphosyntaxPartiallyDisambiguated": false,
-            "hasSegmentsDisambiguated": true
+          "hasMorphosyntaxDisambiguated": true,
+          "hasMorphosyntaxPartiallyDisambiguated": false,
+          "hasSegmentsDisambiguated": true
         },
         "annotationHeaders": {
-            "0": {
-                "distributor": "Concraft",
-                "id": "",
-                "processingDuration": 5,
-                "publicationTime": 1519506424154,
-                "retrievedFrom": "",
-                "sourceDescText": "",
-                "title": ""
-            },
-            "1": {
-                "distributor": "Concraft",
-                "id": "",
-                "processingDuration": 5,
-                "publicationTime": 1519506424154,
-                "retrievedFrom": "",
-                "sourceDescText": "",
-                "title": ""
-            },
-            "6": {
-                "distributor": "Dependency parser",
-                "id": null,
-                "processingDuration": 12844,
-                "publicationTime": 1519506424154,
-                "retrievedFrom": null,
-                "sourceDescText": null,
-                "title": null
-            }
-        },
-        "coreferences": [],
-        "paragraphs": [
-            {
-                "id": "p-1",
-                "sentences": [
-                    {
-                        "dependencyParse": [
-                            {
-                                "endTokenId": "seg-1.1.0",
-                                "label": "subj",
-                                "startTokenId": "seg-1.1.1"
-                            },
-                            {
-                                "endTokenId": "seg-1.1.1",
-                                "label": "conjunct",
-                                "startTokenId": "seg-1.1.5"
-                            },
-                            {
-                                "endTokenId": "seg-1.1.2",
-                                "label": "obj_th",
-                                "startTokenId": "seg-1.1.1"
-                            },
-                            {
-                                "endTokenId": "seg-1.1.3",
-                                "label": "subj",
-                                "startTokenId": "seg-1.1.4"
-                            },
-                            {
-                                "endTokenId": "seg-1.1.4",
-                                "label": "conjunct",
-                                "startTokenId": "seg-1.1.5"
-                            },
-                            {
-                                "endTokenId": "seg-1.1.5",
-                                "label": "root",
-                                "startTokenId": null
-                            }
-                        ],
-                        "groups": [],
-                        "id": "s-1.1",
-                        "mentions": [],
-                        "names": [],
-                        "rejectedTokens": [],
-                        "sentimentTags": [],
-                        "tokens": [
-                            {
-                                "candidateInterpretations": [],
-                                "chosenInterpretation": {
-                                    "base": "Ala",
-                                    "ctag": "subst",
-                                    "msd": "sg:nom:f"
-                                },
-                                "id": "seg-1.1.0",
-                                "interpretations": [
-                                    {
-                                        "base": "Al",
-                                        "ctag": "subst",
-                                        "msd": "sg:acc:m1"
-                                    },
-                                    {
-                                        "base": "Al",
-                                        "ctag": "subst",
-                                        "msd": "sg:gen:m1"
-                                    },
-                                    {
-                                        "base": "Ala",
-                                        "ctag": "subst",
-                                        "msd": "sg:nom:f"
-                                    },
-                                    {
-                                        "base": "Alo",
-                                        "ctag": "subst",
-                                        "msd": "sg:acc:m1"
-                                    },
-                                    {
-                                        "base": "Alo",
-                                        "ctag": "subst",
-                                        "msd": "sg:gen:m1"
-                                    }
-                                ],
-                                "noPrecedingSpace": true,
-                                "offset": 0,
-                                "orth": "ala"
-                            },
-                            {
-                                "candidateInterpretations": [],
-                                "chosenInterpretation": {
-                                    "base": "mieć",
-                                    "ctag": "fin",
-                                    "msd": "sg:ter:imperf"
-                                },
-                                "id": "seg-1.1.1",
-                                "interpretations": [
-                                    {
-                                        "base": "mieć",
-                                        "ctag": "fin",
-                                        "msd": "sg:ter:imperf"
-                                    },
-                                    {
-                                        "base": "mój",
-                                        "ctag": "adj",
-                                        "msd": "sg:nom:f:pos"
-                                    },
-                                    {
-                                        "base": "mój",
-                                        "ctag": "adj",
-                                        "msd": "sg:voc:f:pos"
-                                    }
-                                ],
-                                "noPrecedingSpace": false,
-                                "offset": 4,
-                                "orth": "ma"
-                            },
-                            {
-                                "candidateInterpretations": [],
-                                "chosenInterpretation": {
-                                    "base": "kot",
-                                    "ctag": "subst",
-                                    "msd": "sg:acc:m2"
-                                },
-                                "id": "seg-1.1.2",
-                                "interpretations": [
-                                    {
-                                        "base": "Kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:acc:m1"
-                                    },
-                                    {
-                                        "base": "Kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:gen:m1"
-                                    },
-                                    {
-                                        "base": "kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:acc:m1"
-                                    },
-                                    {
-                                        "base": "kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:acc:m2"
-                                    },
-                                    {
-                                        "base": "kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:gen:m1"
-                                    },
-                                    {
-                                        "base": "kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:gen:m2"
-                                    },
-                                    {
-                                        "base": "kota",
-                                        "ctag": "subst",
-                                        "msd": "sg:nom:f"
-                                    }
-                                ],
-                                "noPrecedingSpace": false,
-                                "offset": 7,
-                                "orth": "kota"
-                            },
-                            {
-                                "candidateInterpretations": [],
-                                "chosenInterpretation": {
-                                    "base": "kot",
-                                    "ctag": "subst",
-                                    "msd": "sg:nom:m2"
-                                },
-                                "id": "seg-1.1.3",
-                                "interpretations": [
-                                    {
-                                        "base": "Kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:nom:m1"
-                                    },
-                                    {
-                                        "base": "kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:nom:m1"
-                                    },
-                                    {
-                                        "base": "kot",
-                                        "ctag": "subst",
-                                        "msd": "sg:nom:m2"
-                                    },
-                                    {
-                                        "base": "kota",
-                                        "ctag": "subst",
-                                        "msd": "pl:gen:f"
-                                    }
-                                ],
-                                "noPrecedingSpace": false,
-                                "offset": 12,
-                                "orth": "kot"
-                            },
-                            {
-                                "candidateInterpretations": [],
-                                "chosenInterpretation": {
-                                    "base": "mieć",
-                                    "ctag": "fin",
-                                    "msd": "sg:ter:imperf"
-                                },
-                                "id": "seg-1.1.4",
-                                "interpretations": [
-                                    {
-                                        "base": "mieć",
-                                        "ctag": "fin",
-                                        "msd": "sg:ter:imperf"
-                                    },
-                                    {
-                                        "base": "mój",
-                                        "ctag": "adj",
-                                        "msd": "sg:nom:f:pos"
-                                    },
-                                    {
-                                        "base": "mój",
-                                        "ctag": "adj",
-                                        "msd": "sg:voc:f:pos"
-                                    }
-                                ],
-                                "noPrecedingSpace": false,
-                                "offset": 16,
-                                "orth": "ma"
-                            },
-                            {
-                                "candidateInterpretations": [],
-                                "chosenInterpretation": {
-                                    "base": "ale",
-                                    "ctag": "conj",
-                                    "msd": ""
-                                },
-                                "id": "seg-1.1.5",
-                                "interpretations": [
-                                    {
-                                        "base": "Al",
-                                        "ctag": "depr",
-                                        "msd": "pl:nom:m2"
-                                    },
-                                    {
-                                        "base": "Al",
-                                        "ctag": "depr",
-                                        "msd": "pl:voc:m2"
-                                    },
-                                    {
-                                        "base": "Ala",
-                                        "ctag": "subst",
-                                        "msd": "pl:acc:f"
-                                    },
-                                    {
-                                        "base": "Ala",
-                                        "ctag": "subst",
-                                        "msd": "pl:nom:f"
-                                    },
-                                    {
-                                        "base": "Ala",
-                                        "ctag": "subst",
-                                        "msd": "pl:voc:f"
-                                    },
-                                    {
-                                        "base": "Ali",
-                                        "ctag": "depr",
-                                        "msd": "pl:nom:m2"
-                                    },
-                                    {
-                                        "base": "Ali",
-                                        "ctag": "depr",
-                                        "msd": "pl:voc:m2"
-                                    },
-                                    {
-                                        "base": "Alo",
-                                        "ctag": "depr",
-                                        "msd": "pl:nom:m2"
-                                    },
-                                    {
-                                        "base": "Alo",
-                                        "ctag": "depr",
-                                        "msd": "pl:voc:m2"
-                                    },
-                                    {
-                                        "base": "ale",
-                                        "ctag": "conj",
-                                        "msd": ""
-                                    },
-                                    {
-                                        "base": "ale",
-                                        "ctag": "qub",
-                                        "msd": ""
-                                    }
-                                ],
-                                "noPrecedingSpace": false,
-                                "offset": 19,
-                                "orth": "ale"
-                            }
-                        ],
-                        "words": []
-                    }
-                ],
-                "text": "ala ma kota kot ma ale"
-            }
-        ],
-        "summary": "",
-        "textHeader": {
-            "distributor": "Multiservice",
+          "0": {
+            "distributor": "Concraft",
             "id": "",
-            "processingDuration": 19615,
-            "publicationTime": 1519506424154,
+            "processingDuration": 254,
+            "publicationTime": 1519517424133,
             "retrievedFrom": "",
             "sourceDescText": "",
             "title": ""
+          },
+          "1": {
+            "distributor": "Concraft",
+            "id": "",
+            "processingDuration": 254,
+            "publicationTime": 1519517424133,
+            "retrievedFrom": "",
+            "sourceDescText": "",
+            "title": ""
+          },
+          "6": {
+            "distributor": "Dependency parser",
+            "id": null,
+            "processingDuration": 12355,
+            "publicationTime": 1519517424133,
+            "retrievedFrom": null,
+            "sourceDescText": null,
+            "title": null
+          }
+        },
+        "coreferences": [],
+        "paragraphs": [
+          {
+            "id": "p-1",
+            "sentences": [
+              {
+                "dependencyParse": [
+                  {
+                    "endTokenId": "seg-1.1.0",
+                    "label": "root",
+                    "startTokenId": null
+                  },
+                  {
+                    "endTokenId": "seg-1.1.1",
+                    "label": "adjunct",
+                    "startTokenId": "seg-1.1.2"
+                  },
+                  {
+                    "endTokenId": "seg-1.1.2",
+                    "label": "adjunct",
+                    "startTokenId": "seg-1.1.0"
+                  },
+                  {
+                    "endTokenId": "seg-1.1.3",
+                    "label": "adjunct",
+                    "startTokenId": "seg-1.1.2"
+                  },
+                  {
+                    "endTokenId": "seg-1.1.4",
+                    "label": "adjunct",
+                    "startTokenId": "seg-1.1.5"
+                  },
+                  {
+                    "endTokenId": "seg-1.1.5",
+                    "label": "conjunct",
+                    "startTokenId": "seg-1.1.3"
+                  },
+                  {
+                    "endTokenId": "seg-1.1.6",
+                    "label": "punct",
+                    "startTokenId": "seg-1.1.9"
+                  },
+                  {
+                    "endTokenId": "seg-1.1.7",
+                    "label": "adjunct",
+                    "startTokenId": "seg-1.1.8"
+                  },
+                  {
+                    "endTokenId": "seg-1.1.8",
+                    "label": "adjunct",
+                    "startTokenId": "seg-1.1.9"
+                  },
+                  {
+                    "endTokenId": "seg-1.1.9",
+                    "label": "adjunct",
+                    "startTokenId": "seg-1.1.5"
+                  }
+                ],
+                "groups": [],
+                "id": "s-1.1",
+                "mentions": [],
+                "names": [],
+                "rejectedTokens": [],
+                "sentimentTags": [],
+                "tokens": [
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": "typ",
+                      "ctag": "subst",
+                      "msd": "sg:nom:m3"
+                    },
+                    "id": "seg-1.1.0",
+                    "interpretations": [
+                      {
+                        "base": "typ",
+                        "ctag": "subst",
+                        "msd": "sg:acc:m3"
+                      },
+                      {
+                        "base": "typ",
+                        "ctag": "subst",
+                        "msd": "sg:nom:m1"
+                      },
+                      {
+                        "base": "typ",
+                        "ctag": "subst",
+                        "msd": "sg:nom:m3"
+                      }
+                    ],
+                    "noPrecedingSpace": true,
+                    "offset": 0,
+                    "orth": "Typ"
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": "profesjonalny",
+                      "ctag": "adj",
+                      "msd": "sg:acc:m1:pos"
+                    },
+                    "id": "seg-1.1.1",
+                    "interpretations": [
+                      {
+                        "base": "profesjonalny",
+                        "ctag": "adj",
+                        "msd": "sg:acc:m1:pos"
+                      },
+                      {
+                        "base": "profesjonalny",
+                        "ctag": "adj",
+                        "msd": "sg:acc:m2:pos"
+                      },
+                      {
+                        "base": "profesjonalny",
+                        "ctag": "adj",
+                        "msd": "sg:gen:m1:pos"
+                      },
+                      {
+                        "base": "profesjonalny",
+                        "ctag": "adj",
+                        "msd": "sg:gen:m2:pos"
+                      },
+                      {
+                        "base": "profesjonalny",
+                        "ctag": "adj",
+                        "msd": "sg:gen:m3:pos"
+                      },
+                      {
+                        "base": "profesjonalny",
+                        "ctag": "adj",
+                        "msd": "sg:gen:n:pos"
+                      }
+                    ],
+                    "noPrecedingSpace": false,
+                    "offset": 4,
+                    "orth": "profesjonalnego"
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": "klient",
+                      "ctag": "subst",
+                      "msd": "sg:acc:m1"
+                    },
+                    "id": "seg-1.1.2",
+                    "interpretations": [
+                      {
+                        "base": "klient",
+                        "ctag": "subst",
+                        "msd": "sg:acc:m1"
+                      },
+                      {
+                        "base": "klient",
+                        "ctag": "subst",
+                        "msd": "sg:acc:m2"
+                      },
+                      {
+                        "base": "klient",
+                        "ctag": "subst",
+                        "msd": "sg:gen:m1"
+                      },
+                      {
+                        "base": "klient",
+                        "ctag": "subst",
+                        "msd": "sg:gen:m2"
+                      }
+                    ],
+                    "noPrecedingSpace": false,
+                    "offset": 20,
+                    "orth": "klienta"
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": ",",
+                      "ctag": "interp",
+                      "msd": ""
+                    },
+                    "id": "seg-1.1.3",
+                    "interpretations": [
+                      {
+                        "base": ",",
+                        "ctag": "interp",
+                        "msd": ""
+                      }
+                    ],
+                    "noPrecedingSpace": true,
+                    "offset": 27,
+                    "orth": ","
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": "dobry",
+                      "ctag": "adj",
+                      "msd": "sg:acc:m3:pos"
+                    },
+                    "id": "seg-1.1.4",
+                    "interpretations": [
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:acc:m3:pos"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:nom:m1:pos"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:nom:m2:pos"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:nom:m3:pos"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:voc:m1:pos"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:voc:m2:pos"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:voc:m3:pos"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "subst",
+                        "msd": "sg:acc:m3"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "subst",
+                        "msd": "sg:nom:m1"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "subst",
+                        "msd": "sg:nom:m3"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "subst",
+                        "msd": "sg:voc:m1"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "subst",
+                        "msd": "sg:voc:m3"
+                      }
+                    ],
+                    "noPrecedingSpace": false,
+                    "offset": 29,
+                    "orth": "dobry"
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": "początek",
+                      "ctag": "subst",
+                      "msd": "sg:acc:m3"
+                    },
+                    "id": "seg-1.1.5",
+                    "interpretations": [
+                      {
+                        "base": "Początek",
+                        "ctag": "subst",
+                        "msd": "sg:nom:m1"
+                      },
+                      {
+                        "base": "początek",
+                        "ctag": "subst",
+                        "msd": "sg:acc:m3"
+                      },
+                      {
+                        "base": "początek",
+                        "ctag": "subst",
+                        "msd": "sg:nom:m3"
+                      }
+                    ],
+                    "noPrecedingSpace": false,
+                    "offset": 35,
+                    "orth": "początek"
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": ",",
+                      "ctag": "interp",
+                      "msd": ""
+                    },
+                    "id": "seg-1.1.6",
+                    "interpretations": [
+                      {
+                        "base": ",",
+                        "ctag": "interp",
+                        "msd": ""
+                      }
+                    ],
+                    "noPrecedingSpace": true,
+                    "offset": 43,
+                    "orth": ","
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": "jeszcze",
+                      "ctag": "qub",
+                      "msd": ""
+                    },
+                    "id": "seg-1.1.7",
+                    "interpretations": [
+                      {
+                        "base": "jeszcze",
+                        "ctag": "qub",
+                        "msd": ""
+                      }
+                    ],
+                    "noPrecedingSpace": false,
+                    "offset": 45,
+                    "orth": "jeszcze"
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": "dobry",
+                      "ctag": "adj",
+                      "msd": "sg:nom:m3:com"
+                    },
+                    "id": "seg-1.1.8",
+                    "interpretations": [
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:acc:m3:com"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:nom:m1:com"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:nom:m2:com"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:nom:m3:com"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:voc:m1:com"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:voc:m2:com"
+                      },
+                      {
+                        "base": "dobry",
+                        "ctag": "adj",
+                        "msd": "sg:voc:m3:com"
+                      }
+                    ],
+                    "noPrecedingSpace": false,
+                    "offset": 53,
+                    "orth": "lepszy"
+                  },
+                  {
+                    "candidateInterpretations": [],
+                    "chosenInterpretation": {
+                      "base": "finał",
+                      "ctag": "subst",
+                      "msd": "sg:nom:m3"
+                    },
+                    "id": "seg-1.1.9",
+                    "interpretations": [
+                      {
+                        "base": "finał",
+                        "ctag": "subst",
+                        "msd": "sg:acc:m3"
+                      },
+                      {
+                        "base": "finał",
+                        "ctag": "subst",
+                        "msd": "sg:nom:m3"
+                      }
+                    ],
+                    "noPrecedingSpace": false,
+                    "offset": 60,
+                    "orth": "finał"
+                  }
+                ],
+                "words": []
+              }
+            ],
+            "text": "Typ profesjonalnego klienta, dobry początek, jeszcze lepszy finał"
+          }
+        ],
+        "summary": "",
+        "textHeader": {
+          "distributor": "Multiservice",
+          "id": "",
+          "processingDuration": 17381,
+          "publicationTime": 1519517424133,
+          "retrievedFrom": "",
+          "sourceDescText": "",
+          "title": ""
         }
-    }
+      }
 }
