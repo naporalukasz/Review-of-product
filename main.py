@@ -3,6 +3,7 @@ from Tree import Tree
 from BinaryTree import BinaryTree
 import numpy as np
 
+
 def createTreeFromJson():
     with open('result.json') as jsonData:
         data = json.load(jsonData)
@@ -37,9 +38,9 @@ def createTreeFromJson():
 
 
 def convertToBinaryTree(treeRoot, nodelist):
-    if not treeRoot.children :
+    if not treeRoot.children:
         node = next(x for x in nodelist if x.id == treeRoot.id)
-        newNode = BinaryTree("tmp", BinaryTree(node.getVal())) #poprawi typ oda
+        newNode = BinaryTree("tmp", BinaryTree(node.getVal()))  # poprawi typ oda
         return newNode
 
     if len(treeRoot.children) == 1:
@@ -64,12 +65,45 @@ def convertToBinaryTree(treeRoot, nodelist):
     return parent
 
 
+def createTreeFromTxt():
+    file = open("test_sentence.txt", "r")
+    sentences = file.readlines()
+
+    nodes=createNodesFromSentence(sentences[1])
+
+    file = open("test_parents.txt", "r")
+    parents = file.readlines()
+    print(parents[0])
+
+
+def createNodesFromSentence(sentence):
+    nodeList = list()
+    index = 1
+    for label in sentence:
+        nodeList.append(Tree(label, index))
+        index + 1
+
+    return nodeList
+
+def buildTree(nodesList,parents):
+    indexRoot = parents.find(x=0)
+    root = next( x for x in nodesList if x.val == indexRoot)
+    for parent in parents:
+        if(parent != 0):
+            r=2
+
+
+
+
 def main():
-    tree, nodeList = createTreeFromJson()
-    #tree.printTree()
-    binaryTree = convertToBinaryTree(tree, nodeList)
-    finalvector = binaryTree.compute()
-    print(finalvector)
+    # part dedicated for trees svae in json file
+    #  tree, nodeList = createTreeFromJson()
+    #  #tree.printTree()
+    #  binaryTree = convertToBinaryTree(tree, nodeList)
+    #  finalvector = binaryTree.compute()
+    #  print(finalvector)
+    createTreeFromTxt()
+
 
 if __name__ == "__main__":
     main()
